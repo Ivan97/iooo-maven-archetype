@@ -43,9 +43,4 @@ under the License.
       </includes>
     </fileSet>
   </fileSets>
-  <requiredProperties>
-    <requiredProperty key="">
-      
-    </requiredProperty>
-  </requiredProperties>
 </archetype-descriptor>
