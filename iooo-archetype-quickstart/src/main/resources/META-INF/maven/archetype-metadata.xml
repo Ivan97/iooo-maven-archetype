@@ -37,7 +37,6 @@ under the License.
       <includes>
         <include>LICENSE</include>
         <include>README.md</include>
-        <include>.editorconfig</include>
         <include>.gitignore</include>
         <include>.gitattributes</include>
       </includes>
