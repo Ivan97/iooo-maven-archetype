@@ -8,7 +8,7 @@
   <parent>
     <groupId>tech.iooo.boot</groupId>
     <artifactId>iooo-boot-parent</artifactId>
-    <version>1.0.7-SNAPSHOT</version>
+    <version>1.0.8-SNAPSHOT</version>
   </parent>
 
   <groupId>\${groupId}</groupId>
@@ -16,6 +16,7 @@
   <version>\${version}</version>
 
   <name>\${artifactId}</name>
+  <description>\${groupId} \${artifactId}</description>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
   <profiles>
@@ -64,7 +65,7 @@
     <dependency>
       <groupId>org.projectlombok</groupId>
       <artifactId>lombok</artifactId>
-      <scope>provided</scope>
+      <optional>true</optional>
     </dependency>
     <dependency>
       <groupId>junit</groupId>
