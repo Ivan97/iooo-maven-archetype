@@ -1,8 +1,7 @@
 ######################
 # Project Specific
 ######################
-/target/www/**
-/src/test/javascript/coverage/
+
 
 ######################
 # Node
@@ -25,18 +24,17 @@ npm-debug.log.*
 *.pydevproject
 .project
 .metadata
-tmp/
-tmp/**/*
+tmp
 *.tmp
 *.bak
 *.swp
 *~.nib
 local.properties
 .classpath
-.settings/
+.settings
 .loadpath
 .factorypath
-/src/main/resources/rebel.xml
+rebel.xml
 
 # External tool builders
 .externalToolBuilders/**
@@ -53,31 +51,31 @@ local.properties
 ######################
 # Intellij
 ######################
-.idea/
+.idea
 *.iml
 *.iws
 *.ipr
 *.ids
 *.orig
-classes/
-out/
+classes
+out
 
 ######################
 # Visual Studio Code
 ######################
-.vscode/
+.vscode
 
 ######################
 # Maven
 ######################
-/log/
-/target/
+log
+target
 
 ######################
 # Gradle
 ######################
-.gradle/
-/build/
+.gradle
+build
 
 ######################
 # Package Files
@@ -118,6 +116,7 @@ Desktop.ini
 ######################
 # Logs
 ######################
+logs
 *.log*
 
 ######################
@@ -142,3 +141,8 @@ Desktop.ini
 # ESLint
 ######################
 .eslintcache
+
+######################
+# Vert.x
+######################
+.vertx
