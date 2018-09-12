@@ -6,8 +6,19 @@
 
   <include resource="logging/logback/base.xml"/>
 
-  <logger name="ch.qos.logback" level="WARN"/>
+  <!--###########################logger###########################-->
+
   <logger name="io.netty" level="INFO"/>
+  <logger name="tech.iooo.boot" level="INFO"/>
   <logger name="${package}" level="${symbol_pound}logback.level${symbol_pound}"/>
+
+  <!--###########################/logger##########################-->
+
+  <root level="INFO">
+    <!--CONSOLE-->
+    <appender-ref ref="STDOUT"/>
+    <!--ROLLING FILE-->
+    <appender-ref ref="ASYNC"/>
+  </root>
 
 </configuration>

@@ -67,6 +67,7 @@
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-resources-plugin</artifactId>
           <configuration>
+            <addDefaultExcludes>false</addDefaultExcludes>
             <escapeString>\</escapeString>
           </configuration>
         </plugin>
