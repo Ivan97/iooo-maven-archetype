@@ -6,13 +6,13 @@
 
   <include resource="logging/logback/base.xml"/>
 
-  <!--###########################logger###########################-->
+  <!--LOGGERS-->
 
   <logger name="io.netty" level="INFO"/>
   <logger name="tech.iooo.boot" level="INFO"/>
   <logger name="${package}" level="${symbol_pound}logback.level${symbol_pound}"/>
 
-  <!--###########################/logger##########################-->
+  <!--/LOGGERS-->
 
   <root level="INFO">
     <!--CONSOLE-->
