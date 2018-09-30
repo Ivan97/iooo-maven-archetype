@@ -39,7 +39,7 @@ under the License.
         <include>README.md</include>
         <include>.gitignore</include>
         <include>.gitattributes</include>
-        <include>.mvn</include>
+        <include>.mvn/</include>
         <include>mvnw</include>
         <include>mvnw.cmd</include>
       </includes>
