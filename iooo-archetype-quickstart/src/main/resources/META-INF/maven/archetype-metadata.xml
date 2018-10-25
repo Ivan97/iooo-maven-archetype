@@ -33,8 +33,11 @@ under the License.
       <directory>src/main/resources</directory>
     </fileSet>
     <fileSet filtered="true" encoding="UTF-8">
-      <directory></directory>
+      <directory>${project.basedir}</directory>
       <includes>
+        <include>.mvn/**</include>
+        <include>mvnw</include>
+        <include>mvnw.cmd</include>
         <include>LICENSE</include>
         <include>README.md</include>
         <include>.gitignore</include>
