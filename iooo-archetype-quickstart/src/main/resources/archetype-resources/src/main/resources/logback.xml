@@ -9,7 +9,7 @@
   <!--LOGGERS-->
 
   <logger name="io.netty" level="INFO"/>
-  <logger name="tech.iooo.boot" level="INFO"/>
+  <logger name="tech.iooo.boot" level="${symbol_pound}logback.level${symbol_pound}"/>
   <logger name="${package}" level="${symbol_pound}logback.level${symbol_pound}"/>
 
   <!--/LOGGERS-->
