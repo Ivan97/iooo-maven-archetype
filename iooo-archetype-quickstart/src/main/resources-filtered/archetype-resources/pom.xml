@@ -155,9 +155,9 @@
             <configuration>
               <outputDirectory>target/classes</outputDirectory>
               <useDefaultDelimiters>false</useDefaultDelimiters>
-              <delimiters>
-                <delimiter>#</delimiter>
-              </delimiters>
+              <!--<delimiters>-->
+                <!--<delimiter>#</delimiter>-->
+              <!--</delimiters>-->
               <resources>
                 <resource>
                   <directory>src/main/resources/</directory>
